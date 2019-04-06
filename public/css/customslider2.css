@@ -1,0 +1,112 @@
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
+.info .name{
+    text-align: center;
+}
+.mediasliderimage{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #333;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#1BBD36;
+}
+.eckcon:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.team-sec{
+    background-image: url('');
+    padding-bottom: 20px;
+
+}
+.he-slider{
+    height: 500px;
+}
+.img_footer{
+    height: 75px;
+
+}
+.jst-div{
+    text-align: justify;
+    margin: 10px;
+    color: black;
+}
+.col-af{
+    color: #0c0c0c;
+}
+.des-title{
+    color: #428bca;
+    padding: 8px;
+
+}
+.con-div{
+    background-color:#f3f3f3;
+    padding-bottom:5px ;
+}
+.cus-title{
+    font-family: cairo !important;
+    color: #4299d8;
+}
+.div_hight_home{
+    min-height: 155px;
+    min-height: 155px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list_pro{
+    line-height: 32px;
+    font-size: 14px;
+    min-height: 130px;
+}
+.img_width{
+    width: 100%;
+}
+.titlenewhome{
+    margin-left: 10px;
+}
+@media all and(min-width:0px) and(max-width:650px) {
+    .he-slider {
+        height: 150px !important;
+
+    }
+
+}

@@ -1,0 +1,24 @@
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+.nav-pills>li[data-slide-to="4"].active a { background-color: #ad3b73; }
+.nav-pills>li[data-slide-to="5"].active a { background-color: #8e44ad; }
+.nav-pills>li[data-slide-to="6"].active a { background-color: #1918ad; }
+.nav-pills>li[data-slide-to="7"].active a { background-color: #abad8d; }
+.nav-pills>li[data-slide-to="4"].active a { background-color: #ad4e2f; }
+.nav-pills>li[data-slide-to="5"].active a { background-color: #345ead; }
+.nav-pills>li[data-slide-to="6"].active a { background-color: #1918ad; }
+.nav-pills>li[data-slide-to="7"].active a { background-color: #36ad21; }
